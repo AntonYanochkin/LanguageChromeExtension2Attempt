@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CromelanguageExtension2",
+  "version": "1.0.0",
+  "description": "dddd",
+  "permissions": [ "storage", "contextMenus", "notifications", "nativeMessaging" ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "nativebridge.html",
+        "nativebridge.js"
+      ],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
+}
